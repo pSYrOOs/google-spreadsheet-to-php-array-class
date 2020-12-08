@@ -5,7 +5,7 @@ This class return google spreadsheet data to php array via Google Sheets API v4
 This class using the Guzzle HTTP Client library: https://github.com/guzzle/guzzle
 
 # Usage
-1) Put this class into project
+1) Put the class into project
 2) Set your Google Sheets API key (created via google developer console)
 3) Just call the "get_sheet_data" method with valid URL of google docs spreadsheet
 
