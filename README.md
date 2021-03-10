@@ -1,4 +1,4 @@
-# google-spreadsheet-to-php-array-class
+# google-spreadsheet-to-php-array
 This class return google spreadsheet data to php array via Google Sheets API v4
 
 # Dependency
