@@ -11,6 +11,7 @@ This class using the Guzzle HTTP Client library: https://github.com/guzzle/guzzl
 
 # Important notes
 Valid google docs URL need to be in this format:
+
 URL example: "https://docs.google.com/spreadsheets/d/1JF2AKbhgvXDUbK7W4JRNwid-85IlgRT6gfdfg56654d"
 
 The URLs must have read access
