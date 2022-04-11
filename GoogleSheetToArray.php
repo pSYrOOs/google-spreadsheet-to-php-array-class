@@ -105,9 +105,11 @@ class GoogleSheetToArray
      */
     protected function set_range(): string
     {
+        // This works for sheets with a maximum range from A to Z.
+        // For a larger range, you just need to refine this function.
         $alphabet = range('A', 'Z');
-
-        return 'A1:' . $alphabet[$this->columns] . $this->rows;
+        
+        return 'A1:' . $alphabet[($this->columns < 26) ? $this->columns : 25] . $this->rows;
     }
 
 
